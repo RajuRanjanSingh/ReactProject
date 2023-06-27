@@ -1,0 +1,42 @@
+.leave-form {
+  max-width: 350px;
+  margin:  auto;
+  padding: 25px;
+  background-color: #dedee2;
+  border: 3px solid #684747;
+  border-radius: 4px;
+}
+.leave-form h2{
+  
+  text-align:center;
+}
+
+.leave-form label {
+ display: block;
+  font-weight:Bold;
+  margin-bottom: 9px;
+}
+
+.leave-form input[type="text"],
+.leave-form input[type="date"],
+.leave-form select {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.leave-form input[type="radio"],
+.leave-form input[type="file"] {
+  margin-right: 10px;
+}
+
+.leave-form button[type="submit"] {
+  background-color: #39516873;
+  color: rgb(124, 30, 30);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+ 
+}
